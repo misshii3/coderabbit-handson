@@ -3,8 +3,10 @@ import json
 
 def read_users(file_path):
     # ファイルからユーザーデータを読み込む
-    f = open(file_path, "r")
-    data = json.load(f)
+    # f = open(file_path, "r")
+    # data = json.load(f)
+    with open(file_path, "r") as f:
+        data = json.load(f)
     return data
 
 
