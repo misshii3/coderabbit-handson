@@ -1,0 +1,5 @@
+# yaml-language-server: $schema=https://coderabbit.ai/integrations/schema.v2.json
+language: "ja-JP"
+tone_instructions: "丁寧かつ建設的なトーンでレビューしてください"
+reviews:
+  profile: "assertive"
